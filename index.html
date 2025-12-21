@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FD Rates Comparison</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>Fixed Deposit Interest Rates</h1>
+    <p>Compare FD rates across banks & deposit slabs</p>
+  </header>
+
+  <section class="controls">
+    <label>
+      Bank
+      <select id="bank">
+        <option value="axis">Axis Bank</option>
+        <option value="hdfc">HDFC Bank</option>
+        <option value="kotak">Kotak Mahindra Bank</option>
+      </select>
+    </label>
+
+    <label>
+      Product
+      <select id="product"></select>
+    </label>
+  </section>
+
+  <section class="table-section">
+    <h2 id="page-title"></h2>
+
+    <div class="table-wrapper">
+      <table id="fd-table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Rates are indicative. Please verify with bank websites.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

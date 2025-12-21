@@ -1,0 +1,140 @@
+:root {
+  --primary: #0b5ed7;
+  --navy: #0b1f3a;
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --border: #e0e0e0;
+  --text: #333;
+  --light-grey: #f2f2f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Header */
+.header {
+  background: var(--primary);
+  color: #fff;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header p {
+  margin: 6px 0 0;
+  opacity: 0.9;
+}
+
+/* Controls */
+.controls {
+  background: var(--card);
+  padding: 16px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.controls label {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+select {
+  margin-top: 6px;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+/* Table Section */
+.table-section {
+  padding: 20px;
+}
+
+#page-title {
+  margin-bottom: 12px;
+}
+
+/* Table */
+.table-wrapper {
+  overflow-x: auto;
+  background: var(--card);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+/* 🔵 HEADER ROW */
+thead th {
+  background: var(--navy);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* 🔘 BODY CELLS */
+td {
+  padding: 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+/* 🩶 FIRST COLUMN (TENURE) */
+tbody td:first-child {
+  background: var(--light-grey);
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Hover effect */
+tbody tr:hover td {
+  background: #fafafa;
+}
+
+tbody tr:hover td:first-child {
+  background: #e8e8e8;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  table {
+    min-width: 600px;
+  }
+}
