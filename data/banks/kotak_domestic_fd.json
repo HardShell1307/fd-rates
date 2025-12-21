@@ -1,0 +1,397 @@
+{
+  "bank": "Kotak Mahindra Bank",
+  "product": "Domestic FD (Withdrawal Allowed)",
+  "currency": "INR",
+  "source": "html",
+  "url": "https://www.kotak.bank.in/en/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rate.html",
+  "tenures": [
+    {
+      "tenure": "7 - 14 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 3.5
+        },
+        "10-25cr": {
+          "general": 4.05
+        },
+        "25-100cr": {
+          "general": 4.05
+        },
+        "100-300cr": {
+          "general": 4.05
+        },
+        "300+cr": {
+          "general": 4.05
+        }
+      }
+    },
+    {
+      "tenure": "15 - 30 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 3.5
+        },
+        "10-25cr": {
+          "general": 4.55
+        },
+        "25-100cr": {
+          "general": 4.55
+        },
+        "100-300cr": {
+          "general": 4.55
+        },
+        "300+cr": {
+          "general": 4.55
+        }
+      }
+    },
+    {
+      "tenure": "31 - 45 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 4.25
+        },
+        "10-25cr": {
+          "general": 5.3
+        },
+        "25-100cr": {
+          "general": 5.3
+        },
+        "100-300cr": {
+          "general": 5.3
+        },
+        "300+cr": {
+          "general": 5.3
+        }
+      }
+    },
+    {
+      "tenure": "46 - 60 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 4.5
+        },
+        "10-25cr": {
+          "general": 5.55
+        },
+        "25-100cr": {
+          "general": 5.55
+        },
+        "100-300cr": {
+          "general": 5.55
+        },
+        "300+cr": {
+          "general": 5.55
+        }
+      }
+    },
+    {
+      "tenure": "61 - 90 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 4.5
+        },
+        "10-25cr": {
+          "general": 6.0
+        },
+        "25-100cr": {
+          "general": 6.0
+        },
+        "100-300cr": {
+          "general": 6.0
+        },
+        "300+cr": {
+          "general": 6.0
+        }
+      }
+    },
+    {
+      "tenure": "91 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 5.0
+        },
+        "10-25cr": {
+          "general": 6.0
+        },
+        "25-100cr": {
+          "general": 6.0
+        },
+        "100-300cr": {
+          "general": 6.0
+        },
+        "300+cr": {
+          "general": 6.0
+        }
+      }
+    },
+    {
+      "tenure": "92 Days - 120 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 5.25
+        },
+        "10-25cr": {
+          "general": 6.0
+        },
+        "25-100cr": {
+          "general": 6.0
+        },
+        "100-300cr": {
+          "general": 6.0
+        },
+        "300+cr": {
+          "general": 6.0
+        }
+      }
+    },
+    {
+      "tenure": "121 Days - 179 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 5.25
+        },
+        "10-25cr": {
+          "general": 6.0
+        },
+        "25-100cr": {
+          "general": 6.0
+        },
+        "100-300cr": {
+          "general": 6.0
+        },
+        "300+cr": {
+          "general": 6.0
+        }
+      }
+    },
+    {
+      "tenure": "180 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 5.75
+        },
+        "10-25cr": {
+          "general": 6.05
+        },
+        "25-100cr": {
+          "general": 6.05
+        },
+        "100-300cr": {
+          "general": 6.05
+        },
+        "300+cr": {
+          "general": 6.05
+        }
+      }
+    },
+    {
+      "tenure": "181 Days to 270 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 5.5
+        },
+        "10-25cr": {
+          "general": 6.1
+        },
+        "25-100cr": {
+          "general": 6.1
+        },
+        "100-300cr": {
+          "general": 6.1
+        },
+        "300+cr": {
+          "general": 6.1
+        }
+      }
+    },
+    {
+      "tenure": "271 Days to 279 Days",
+      "slabs": {
+        "5-10cr": {
+          "general": 5.15
+        },
+        "10-25cr": {
+          "general": 5.0
+        },
+        "25-100cr": {
+          "general": 5.0
+        },
+        "100-300cr": {
+          "general": 5.0
+        },
+        "300+cr": {
+          "general": 5.0
+        }
+      }
+    },
+    {
+      "tenure": "280Days - 364 days",
+      "slabs": {
+        "5-10cr": {
+          "general": 6.0
+        },
+        "10-25cr": {
+          "general": 6.4
+        },
+        "25-100cr": {
+          "general": 6.4
+        },
+        "100-300cr": {
+          "general": 6.4
+        },
+        "300+cr": {
+          "general": 6.4
+        }
+      }
+    },
+    {
+      "tenure": "365 days - Less Than 15Months",
+      "slabs": {
+        "5-10cr": {
+          "general": 6.5
+        },
+        "10-25cr": {
+          "general": 6.6
+        },
+        "25-100cr": {
+          "general": 6.6
+        },
+        "100-300cr": {
+          "general": 6.6
+        },
+        "300+cr": {
+          "general": 6.6
+        }
+      }
+    },
+    {
+      "tenure": "15 months - less than 18 months",
+      "slabs": {
+        "5-10cr": {
+          "general": 6.4
+        },
+        "10-25cr": {
+          "general": 6.45
+        },
+        "25-100cr": {
+          "general": 6.45
+        },
+        "100-300cr": {
+          "general": 6.45
+        },
+        "300+cr": {
+          "general": 6.45
+        }
+      }
+    },
+    {
+      "tenure": "18 months - less than 2 Years",
+      "slabs": {
+        "5-10cr": {
+          "general": 6.4
+        },
+        "10-25cr": {
+          "general": 6.4
+        },
+        "25-100cr": {
+          "general": 6.4
+        },
+        "100-300cr": {
+          "general": 6.4
+        },
+        "300+cr": {
+          "general": 6.4
+        }
+      }
+    },
+    {
+      "tenure": "2 years and above but less than 3 years",
+      "slabs": {
+        "5-10cr": {
+          "general": 6.25
+        },
+        "10-25cr": {
+          "general": 6.25
+        },
+        "25-100cr": {
+          "general": 6.25
+        },
+        "100-300cr": {
+          "general": 6.25
+        },
+        "300+cr": {
+          "general": 6.25
+        }
+      }
+    },
+    {
+      "tenure": "3 years and above but less than 4 years",
+      "slabs": {
+        "5-10cr": {
+          "general": 6.25
+        },
+        "10-25cr": {
+          "general": 6.25
+        },
+        "25-100cr": {
+          "general": 6.25
+        },
+        "100-300cr": {
+          "general": 6.25
+        },
+        "300+cr": {
+          "general": 6.25
+        }
+      }
+    },
+    {
+      "tenure": "4 years and above but less than 5 years",
+      "slabs": {
+        "5-10cr": {
+          "general": 6.25
+        },
+        "10-25cr": {
+          "general": 6.25
+        },
+        "25-100cr": {
+          "general": 6.25
+        },
+        "100-300cr": {
+          "general": 6.25
+        },
+        "300+cr": {
+          "general": 6.25
+        }
+      }
+    },
+    {
+      "tenure": "5 years and above upto & inclusive of 7 years",
+      "slabs": {
+        "5-10cr": {
+          "general": 6.05
+        },
+        "10-25cr": {
+          "general": 6.05
+        },
+        "25-100cr": {
+          "general": 6.05
+        },
+        "100-300cr": {
+          "general": 6.05
+        },
+        "300+cr": {
+          "general": 6.05
+        }
+      }
+    },
+    {
+      "tenure": "181 days and above",
+      "slabs": {
+        "5-10cr": {
+          "general": 0.5
+        }
+      }
+    }
+  ]
+}
