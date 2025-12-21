@@ -15,12 +15,12 @@ const PRODUCTS = {
     {
       value: "domestic",
       label: "Callable",
-      file: "/data/banks/axis_domestic_fd.json"
+      file: "data/banks/axis_domestic_fd.json"
     },
     {
       value: "plusa",
       label: "Non-Callable",
-      file: "/data/banks/axis_plusa_fd.json"
+      file: "data/banks/axis_plusa_fd.json"
     }
   ],
 
@@ -28,12 +28,12 @@ const PRODUCTS = {
     {
       value: "domestic",
       label: "Callable",
-      file: "/data/banks/hdfc_domestic_fd.json"
+      file: "data/banks/hdfc_domestic_fd.json"
     },
     {
       value: "domestic_plus",
       label: "Non-Callable",
-      file: "/data/banks/hdfc_domestic_plus_fd.json"
+      file: "data/banks/hdfc_domestic_plus_fd.json"
     }
   ],
 
@@ -41,12 +41,12 @@ const PRODUCTS = {
     {
       value: "domestic",
       label: "Callable",
-      file: "/data/banks/kotak_domestic_fd.json"
+      file: "data/banks/kotak_domestic_fd.json"
     },
     {
       value: "domestic_plus",
       label: "Non-Callable",
-      file: "/data/banks/kotak_domestic_plus_fd.json"
+      file: "data/banks/kotak_domestic_plus_fd.json"
     }
   ]
 };
@@ -143,3 +143,4 @@ productSelect.addEventListener("change", loadFD);
 ---------------------------------- */
 updateProductOptions();
 loadFD();
+
