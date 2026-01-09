@@ -14,7 +14,7 @@ const titleEl = document.getElementById("page-title");
 ---------------------------------- */
 const PRODUCTS = {
   axis: [
-    { value: "domestic", label: "Callable", file: "data/banks/axis_domestic_fd.json" },
+    { value: "domestic", label: "Callable", file: "/data/banks/axis_domestic_fd.json" },
     { value: "plusa", label: "Non-Callable", file: "data/banks/axis_plusa_fd.json" }
   ],
   hdfc: [
@@ -186,4 +186,5 @@ amountFilter.addEventListener("change", renderTable);
 ---------------------------------- */
 updateProductOptions();
 loadFD();
+
 
