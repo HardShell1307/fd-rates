@@ -14,16 +14,16 @@ const titleEl = document.getElementById("page-title");
 ---------------------------------- */
 const PRODUCTS = {
   axis: [
-    { value: "domestic", label: "Callable", file: "/data/banks/axis_domestic_fd.json" },
-    { value: "plusa", label: "Non-Callable", file: "/data/banks/axis_plusa_fd.json" }
+    { value: "domestic", label: "Callable", file: "data/banks/axis_domestic_fd.json" },
+    { value: "plusa", label: "Non-Callable", file: "data/banks/axis_plusa_fd.json" }
   ],
   hdfc: [
-    { value: "domestic", label: "Callable", file: "/data/banks/hdfc_domestic_fd.json" },
-    { value: "domestic_plus", label: "Non-Callable", file: "/data/banks/hdfc_domestic_plus_fd.json" }
+    { value: "domestic", label: "Callable", file: "data/banks/hdfc_domestic_fd.json" },
+    { value: "domestic_plus", label: "Non-Callable", file: "data/banks/hdfc_domestic_plus_fd.json" }
   ],
   kotak: [
-    { value: "domestic", label: "Callable", file: "/data/banks/kotak_domestic_fd.json" },
-    { value: "domestic_plus", label: "Non-Callable", file: "/data/banks/kotak_domestic_plus_fd.json" }
+    { value: "domestic", label: "Callable", file: "data/banks/kotak_domestic_fd.json" },
+    { value: "domestic_plus", label: "Non-Callable", file: "data/banks/kotak_domestic_plus_fd.json" }
   ]
 };
 
@@ -186,3 +186,4 @@ amountFilter.addEventListener("change", renderTable);
 ---------------------------------- */
 updateProductOptions();
 loadFD();
+
