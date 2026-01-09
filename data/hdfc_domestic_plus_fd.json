@@ -1,0 +1,466 @@
+{
+  "bank": "HDFC Bank",
+  "product": "Domestic Plus (Non-Withdrawable)",
+  "currency": "INR",
+  "source": "html",
+  "url": "https://www.hdfc.bank.in/interest-rates",
+  "tenures": [
+    {
+      "tenure": "89 days <= 120 Days",
+      "slabs": {
+        "2-5cr": {
+          "general": null
+        },
+        "5-5.25cr": {
+          "general": 5.85
+        },
+        "5.25-5.5cr": {
+          "general": 5.85
+        },
+        "5.5-24.75cr": {
+          "general": 5.85
+        },
+        "24.75-25cr": {
+          "general": 5.85
+        },
+        "25-50cr": {
+          "general": 5.85
+        },
+        "50-100cr": {
+          "general": 5.85
+        },
+        "100-200cr": {
+          "general": 6.3
+        },
+        "200-400cr": {
+          "general": 5.85
+        },
+        "400-1000cr": {
+          "general": 5.85
+        },
+        "1000+cr": {
+          "general": 5.85
+        }
+      }
+    },
+    {
+      "tenure": "121 days <= 150 days",
+      "slabs": {
+        "2-5cr": {
+          "general": null
+        },
+        "5-5.25cr": {
+          "general": 5.85
+        },
+        "5.25-5.5cr": {
+          "general": 5.85
+        },
+        "5.5-24.75cr": {
+          "general": 5.85
+        },
+        "24.75-25cr": {
+          "general": 5.85
+        },
+        "25-50cr": {
+          "general": 5.85
+        },
+        "50-100cr": {
+          "general": 5.85
+        },
+        "100-200cr": {
+          "general": 5.85
+        },
+        "200-400cr": {
+          "general": 5.85
+        },
+        "400-1000cr": {
+          "general": 5.85
+        },
+        "1000+cr": {
+          "general": 5.85
+        }
+      }
+    },
+    {
+      "tenure": "151 days <=6 Months",
+      "slabs": {
+        "2-5cr": {
+          "general": null
+        },
+        "5-5.25cr": {
+          "general": 5.85
+        },
+        "5.25-5.5cr": {
+          "general": 5.85
+        },
+        "5.5-24.75cr": {
+          "general": 5.85
+        },
+        "24.75-25cr": {
+          "general": 5.85
+        },
+        "25-50cr": {
+          "general": 5.95
+        },
+        "50-100cr": {
+          "general": 5.95
+        },
+        "100-200cr": {
+          "general": 5.95
+        },
+        "200-400cr": {
+          "general": 5.95
+        },
+        "400-1000cr": {
+          "general": 5.95
+        },
+        "1000+cr": {
+          "general": 5.95
+        }
+      }
+    },
+    {
+      "tenure": "6 months 1 day <=9months",
+      "slabs": {
+        "2-5cr": {
+          "general": null
+        },
+        "5-5.25cr": {
+          "general": 6.0
+        },
+        "5.25-5.5cr": {
+          "general": 6.0
+        },
+        "5.5-24.75cr": {
+          "general": 6.0
+        },
+        "24.75-25cr": {
+          "general": 6.0
+        },
+        "25-50cr": {
+          "general": 6.05
+        },
+        "50-100cr": {
+          "general": 6.05
+        },
+        "100-200cr": {
+          "general": 6.05
+        },
+        "200-400cr": {
+          "general": 6.05
+        },
+        "400-1000cr": {
+          "general": 6.05
+        },
+        "1000+cr": {
+          "general": 6.05
+        }
+      }
+    },
+    {
+      "tenure": "9 months 1 day to < 1 Year",
+      "slabs": {
+        "2-5cr": {
+          "general": null
+        },
+        "5-5.25cr": {
+          "general": 6.1
+        },
+        "5.25-5.5cr": {
+          "general": 6.1
+        },
+        "5.5-24.75cr": {
+          "general": 6.1
+        },
+        "24.75-25cr": {
+          "general": 6.1
+        },
+        "25-50cr": {
+          "general": 6.1
+        },
+        "50-100cr": {
+          "general": 6.1
+        },
+        "100-200cr": {
+          "general": 6.1
+        },
+        "200-400cr": {
+          "general": 6.1
+        },
+        "400-1000cr": {
+          "general": 6.1
+        },
+        "1000+cr": {
+          "general": 6.1
+        }
+      }
+    },
+    {
+      "tenure": "1 Year to < 15 months",
+      "slabs": {
+        "2-5cr": {
+          "general": 6.3
+        },
+        "5-5.25cr": {
+          "general": 6.3
+        },
+        "5.25-5.5cr": {
+          "general": 6.3
+        },
+        "5.5-24.75cr": {
+          "general": 6.3
+        },
+        "24.75-25cr": {
+          "general": 6.3
+        },
+        "25-50cr": {
+          "general": 6.65
+        },
+        "50-100cr": {
+          "general": 6.65
+        },
+        "100-200cr": {
+          "general": 6.65
+        },
+        "200-400cr": {
+          "general": 6.5
+        },
+        "400-1000cr": {
+          "general": 6.5
+        },
+        "1000+cr": {
+          "general": 6.5
+        }
+      }
+    },
+    {
+      "tenure": "15 months to\u00a0< 18 months",
+      "slabs": {
+        "2-5cr": {
+          "general": 6.3
+        },
+        "5-5.25cr": {
+          "general": 6.3
+        },
+        "5.25-5.5cr": {
+          "general": 6.3
+        },
+        "5.5-24.75cr": {
+          "general": 6.3
+        },
+        "24.75-25cr": {
+          "general": 6.3
+        },
+        "25-50cr": {
+          "general": 6.3
+        },
+        "50-100cr": {
+          "general": 6.3
+        },
+        "100-200cr": {
+          "general": 6.3
+        },
+        "200-400cr": {
+          "general": 6.3
+        },
+        "400-1000cr": {
+          "general": 6.3
+        },
+        "1000+cr": {
+          "general": 6.3
+        }
+      }
+    },
+    {
+      "tenure": "18 months to < 21 months",
+      "slabs": {
+        "2-5cr": {
+          "general": 6.45
+        },
+        "5-5.25cr": {
+          "general": 6.45
+        },
+        "5.25-5.5cr": {
+          "general": 6.45
+        },
+        "5.5-24.75cr": {
+          "general": 6.45
+        },
+        "24.75-25cr": {
+          "general": 6.45
+        },
+        "25-50cr": {
+          "general": 6.25
+        },
+        "50-100cr": {
+          "general": 6.25
+        },
+        "100-200cr": {
+          "general": 6.25
+        },
+        "200-400cr": {
+          "general": 6.25
+        },
+        "400-1000cr": {
+          "general": 6.25
+        },
+        "1000+cr": {
+          "general": 6.25
+        }
+      }
+    },
+    {
+      "tenure": "21 months to 2 years",
+      "slabs": {
+        "2-5cr": {
+          "general": 6.45
+        },
+        "5-5.25cr": {
+          "general": 6.45
+        },
+        "5.25-5.5cr": {
+          "general": 6.45
+        },
+        "5.5-24.75cr": {
+          "general": 6.45
+        },
+        "24.75-25cr": {
+          "general": 6.45
+        },
+        "25-50cr": {
+          "general": 6.25
+        },
+        "50-100cr": {
+          "general": 6.25
+        },
+        "100-200cr": {
+          "general": 6.25
+        },
+        "200-400cr": {
+          "general": 6.25
+        },
+        "400-1000cr": {
+          "general": 6.25
+        },
+        "1000+cr": {
+          "general": 6.25
+        }
+      }
+    },
+    {
+      "tenure": "2 year\u00a01 day to 3 years",
+      "slabs": {
+        "2-5cr": {
+          "general": 6.35
+        },
+        "5-5.25cr": {
+          "general": 6.35
+        },
+        "5.25-5.5cr": {
+          "general": 6.35
+        },
+        "5.5-24.75cr": {
+          "general": 6.35
+        },
+        "24.75-25cr": {
+          "general": 6.35
+        },
+        "25-50cr": {
+          "general": 6.35
+        },
+        "50-100cr": {
+          "general": 6.35
+        },
+        "100-200cr": {
+          "general": 6.35
+        },
+        "200-400cr": {
+          "general": 6.35
+        },
+        "400-1000cr": {
+          "general": 6.35
+        },
+        "1000+cr": {
+          "general": 6.35
+        }
+      }
+    },
+    {
+      "tenure": "3 year\u00a01 day to 5 years",
+      "slabs": {
+        "2-5cr": {
+          "general": 6.45
+        },
+        "5-5.25cr": {
+          "general": 6.45
+        },
+        "5.25-5.5cr": {
+          "general": 6.45
+        },
+        "5.5-24.75cr": {
+          "general": 6.45
+        },
+        "24.75-25cr": {
+          "general": 6.45
+        },
+        "25-50cr": {
+          "general": 6.45
+        },
+        "50-100cr": {
+          "general": 6.45
+        },
+        "100-200cr": {
+          "general": 6.45
+        },
+        "200-400cr": {
+          "general": 6.45
+        },
+        "400-1000cr": {
+          "general": 6.45
+        },
+        "1000+cr": {
+          "general": 6.45
+        }
+      }
+    },
+    {
+      "tenure": "5 year\u00a01 day to 10 years",
+      "slabs": {
+        "2-5cr": {
+          "general": 6.25
+        },
+        "5-5.25cr": {
+          "general": 6.25
+        },
+        "5.25-5.5cr": {
+          "general": 6.25
+        },
+        "5.5-24.75cr": {
+          "general": 6.25
+        },
+        "24.75-25cr": {
+          "general": 6.25
+        },
+        "25-50cr": {
+          "general": 6.25
+        },
+        "50-100cr": {
+          "general": 6.25
+        },
+        "100-200cr": {
+          "general": 6.25
+        },
+        "200-400cr": {
+          "general": 6.25
+        },
+        "400-1000cr": {
+          "general": 6.25
+        },
+        "1000+cr": {
+          "general": 6.25
+        }
+      }
+    }
+  ],
+  "last_updated": "2026-01-09T08:34:47.539678+00:00"
+}
